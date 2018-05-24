@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Demo_BackButton.MainPage"
+    x:Class="Demo_BackButton.Page2"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Demo_BackButton"
@@ -9,12 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel HorizontalAlignment="Center"  VerticalAlignment="Center" >
-            <TextBlock  Text="This is MainPage" TextWrapping="Wrap" FontSize="48" />
-            <Button Content="Go" HorizontalAlignment="Center" FontSize="24" VerticalAlignment="Center" RenderTransformOrigin="0.522,1.045" Margin="0,0,0,0" Width="355" Click="Button_Click" />
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="This is page two!" TextAlignment="Center" FontSize="36"></TextBlock>
         </StackPanel>
-
-
-
     </Grid>
 </Page>
